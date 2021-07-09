@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 200px;
+            height: 200px;
+            border: 1px solid lightcoral;
+            background-color: lightgreen;
+
+        }
+        .box:hover{
+            width: 400px;
+            height: 400px;
+            transform: rotate(234deg);
+            transition: width 0.8s ease-in, height 2s linear 0.8s, transform 2s;
+        }
+        /* transition korar jonno 4ti jinis lage . div {
+    transition: <property> <duration> <timing-function> <delay>; */
+    </style>
+</head>
+<body>
+    <div class="box">Transition</div>
+    <div class="box">Transition</div>
+</body>
+</html>
